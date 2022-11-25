@@ -1,0 +1,10 @@
+#서버포트설정
+server:
+  port: 8080
+
+#스프링시큐리티설정
+spring:
+  security:
+    user:
+      name: test-user
+      password: test-password

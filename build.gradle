@@ -13,9 +13,18 @@ repositories {
 }
 
 dependencies {
+
+	// 스프링 Web 의존성 주입
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// 스프링 Admin 의존성 주입
 	implementation 'de.codecentric:spring-boot-admin-starter-server:2.7.7'
+
+	// 스프링 Security 의존성 주입
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	testImplementation 'org.springframework.security:spring-security-test'
+
 }
 
 tasks.named('test') {
